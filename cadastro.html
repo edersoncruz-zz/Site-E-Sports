@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="shortcut icon" href="imagens/logo1.jpg">
+	<title>E-Sports</title>
+</head>
+<body>
+
+	<div id="containercadastro">
+		
+		<header>
+		<h1>
+			<a href="index.html">
+			<img id="logo" src="imagens/logo.jpg" alt="Logomarca E-Sports">
+			</a>
+		</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="noticias.html">Notícias</a>
+					</li>
+					<li>
+						<a href="jogos.html">Jogos</a>
+					</li>
+					<li>
+						<a href="cadastro.html">Cadastrar</a>
+					</li>
+				</ul>
+			</nav>
+
+		</header>
+
+
+			<main>
+				<form action="cadastro.php" method="get">
+				<h2>
+					Formulário de Cadastro
+				</h2>
+				<hr>
+
+			<fieldset>
+				<label id="idusuario" for="usuario">Usuário: </label>
+				<input autofocus required type="text" name="usuario" id="usuario" placeholder="Digite seu usuário...">
+				
+			
+
+				<label id="email" for="idemail">/E-mail: </label>
+				<input required type="email" name="email" id="idemail" placeholder="Digite seu melhor e-mail...">
+				
+		
+
+				<label for="idsenha1">Senha: </label>
+				<input required type="password" name="senha1" id="idsenha1" placeholder="Digite sua senha...">
+
+				<label for="idsenha2">Confirmar senha: </label>
+				<input required type="password" name="senha2" id="idsenha2" placeholder="Confirme sua senha...">
+
+				
+
+
+				<input required type="checkbox" name="termos" value="condordo" class="cbox">
+				<label class="ctxt">Eu concordo com os termos de uso.</label>
+
+				<input id="check" class="cbox" type="checkbox" name="novidades" value="aceito">
+				<label id="check2" class="ctxt">Quero receber notícias e novidades.</label>
+
+				<img id="robo" src="imagens/robo.png" alt="Confirmar que você não é um robô" width="250">
+
+				<input id="cadastrar" type="submit" name="btn" value="Cadastrar">
+
+			</fieldset>
+			</form>
+			</main>
+
+			<footer id="fotcadastro">
+
+				<hr id="footer">
+			
+				<h4>Contato</h4>
+				<a href="mailto:esports@gmail.com?subject=Hello%20again">
+				<img id="emailcontato" src="imagens/email.png" alt="Link para email">
+				<p>esports@gmail.com</p>
+			 	</a>
+			
+				<form action="cadastro.php" method="get">
+			 	<label id="email2" for = "novidades">Receba Novidades</label>
+			 	<input required type="email" name="email" placeholder="Digite seu email...">
+				<input id="novidades" type="submit" name="btn2" value="Cadastrar">
+				</form>
+
+				<ul>
+					<li>
+						Patrocínio:
+					</li>
+					<li>
+						Corsair
+					</li>
+					<li>
+						Razer
+					</li>
+					<li>
+						Nvidea
+					</li>
+					<li>
+						Logitech
+					</li>
+					<li>
+						HyperX
+					</li>
+					<li>
+						Kabum
+					</li>
+					<li>
+						Intel
+					</li>
+					<li>
+						AMD
+					</li>
+					<li>
+						Coolermaster
+					</li>
+					<li>
+						Dell
+					</li>
+					<li>
+						Microsoft
+					</li>
+			
+				</ul>
+		
+		
+			</footer>
+
+		
+
+	</div>
+
+</body>
+</html>

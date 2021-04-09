@@ -1,0 +1,472 @@
+*{
+	font-family: Arial;
+	margin:0;
+	padding:0;
+}
+
+#containercadastro{
+	max-width: 	960px;
+	min-width: 	600px;
+	height: 	875px;
+	background-color: 		#fff;
+	margin: 	auto;
+}
+
+nav{
+	width: 	75%;
+	float: 	right;	
+	display: 	inline-block;
+	height: 	89px;
+}
+
+header h1{
+	display: 	inline-block;
+	float: 	left;
+	height: 	89px;
+}
+
+header{
+	width: 	100%;
+	height: 	89px;
+	background-color: 	#000;
+	text-align: 	center;
+}
+
+#logo{
+	height: 	100%;
+}
+
+header nav ul li{
+	display: inline-block;
+	width: 30%;
+	height: 	100%;
+	text-align: center;
+	padding: 0px 0px;
+}
+
+header nav ul li a{
+	text-decoration: 	none;
+	color: 	#fff;
+	font-weight: 	bold;
+	font-size: 2.0em;
+	position: relative;
+	top:20px;
+}
+
+header nav ul li:hover{
+	background-color: 	darkblue;
+}
+
+header nav ul{
+	list-style: none;
+	padding: 0px 0px;
+	width: 	100%;
+	height: 100%;
+	float: 	right;	
+}
+
+body{
+
+	background-image: url("../imagens/fundo.jpg");
+}
+
+
+
+hr{
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 97%;
+	
+}
+
+
+
+fieldset{
+	width: 30%;
+	position: relative;
+	top: 50px;
+	margin:auto;
+}
+
+main form label{
+	display: block;
+	padding-left: 22px;
+	padding-top: 15px;
+
+}
+
+main form input{
+	margin:auto;
+	display: block;
+	position: relative;
+	padding-right: 70px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.cbox{
+	position: relative;
+	left: 22px;
+	display: inline-block;
+}
+	
+.ctxt{
+	font-size: 15px;
+	display: inline-block;
+}
+
+#check{
+ 	padding-top: 3px;
+}
+
+#check2{
+	padding-top: 3px;
+
+}
+
+#robo{
+	padding-left: 22px;
+	padding-top: 10px;
+}
+
+#cadastrar{
+	position: relative;
+	top: 1px;
+	right: 1.5px;
+	margin-top: 10px;
+	padding: 0px;
+	width: 101%;
+	height: 50px;
+}
+
+#fotcadastro{
+	margin-top: 100px;
+}
+
+footer h4{
+	position: relative;
+	top: 22px;
+	left: 35px;
+}
+
+#emailcontato{
+	position: relative;
+	top: 20px;
+	left: 35px;
+	width: 50px;
+}
+
+footer p{
+	display: inline-block;
+	position: relative;
+	bottom: -10px;
+	left: 40px;
+}
+
+footer label{
+	font-weight: bold;
+	position: relative;
+	left: 347px;
+	bottom: 49px;
+}
+
+footer input{
+	position: relative;
+	left: 200px;
+	bottom: 10px;
+}
+
+footer ul{
+	position: relative;
+	left: 10px;
+	list-style-type: square;
+	width: 90%;
+	margin: auto;
+}
+footer ul li{
+	font-size:13px;
+	margin:auto;
+	padding: 10px;
+	display: inline-block;
+}
+
+#noticias{
+
+	width: 100%;
+
+}
+
+#noticiasx{
+
+	width:99%;
+
+}
+
+#principal{
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+.sec{
+	padding-top: 5px;
+	width: 24%;
+	height: 156px;
+}
+
+.sec2{
+	padding-top: 0px;
+	width: 24%;
+	height: 156px;
+}
+
+
+main section{
+	float: left;
+	width: 75%;
+
+
+}
+
+section h2{
+	padding-left: 20px;
+	padding-top: 15px;
+	position: relative;
+	top: 10px;
+}
+
+
+
+.imgnoticias{
+	float: left;
+	width: 300px;
+	height: 150px;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+
+.jogo{
+	padding-top: 20px;
+	position: relative;
+	left: 10px;
+	font-size: 13px;
+
+}
+
+section h3{
+	width: 97%;
+	padding-top: 15px;
+	position: relative;
+	left: 10px;
+	font-size: 17px;
+
+}
+
+.resumo{
+	padding-top: 15px;
+	position: relative;
+	left: 10px;
+	font-size: 13px;
+
+}
+
+.autor{
+	padding-top: 15px;
+	position: relative;
+	left: 10px;
+	font-size: 10px;
+
+}
+
+main a {
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: #000;
+}
+
+#containerindex{
+	max-width: 	960px;
+	min-width: 	600px;
+	height: 	1600px;
+	background-color: 		#fff;
+	margin: 	auto;
+}
+#containerjogos{
+	max-width: 	960px;
+	min-width: 	600px;
+	height: 	995px;
+	background-color: 		#fff;
+	margin: 	auto;
+}
+
+#containernoticias{
+	max-width: 	960px;
+	min-width: 	600px;
+	height: 	1750px;
+	background-color: 		#fff;
+	margin: 	auto;
+}
+
+#fnoticias{
+	width: 960px;
+	position: absolute;
+	top: 1550px;
+}
+#index{
+	width: 960px;
+	position: absolute;
+	top: 1400px;
+}
+
+#link{
+	position: relative;
+	left: 340px;
+	top: 35px;
+	border-style: solid;
+	padding:10px;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+}
+
+#link:hover{
+	background-color: darkblue;
+}
+
+
+#aside1{
+	margin-top: 50px;
+	width: 24%;
+	float: left;
+	border-color: #9D9D9D;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 3px;
+}
+
+#v1{
+	margin-top: 3px;
+	padding-left: 60px;
+}
+#v2{
+	margin-top: 3px;
+	padding-left: 80px;
+}
+#aside2{
+	margin-top: 50px;
+	width: 24%;
+	float: left;
+	border-color: #9D9D9D;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 3px;
+}
+
+.aside1p{
+	position: relative;
+	bottom: 20px;
+	display: inline-block;
+	width: 47%;
+	font-size: 10px;
+}
+
+.imgaside{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	display: inline-block;
+	width: 47%;
+}
+
+
+.aside2p{
+	position: relative;
+	bottom: 20px;
+	display: inline-block;
+	width: 47%;
+	font-size: 10px;
+}
+
+aside a{
+	text-decoration: none;
+	color: #000;
+}
+
+
+main h2{
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.jogo1{
+	position: relative;
+	top: 20px;
+	left: 10px;
+}
+.noticia1{
+	position: relative;
+	top: 30px;
+	left: 10px;
+}
+.resumo1{
+	position: relative;
+	top: 40px;
+	left: 10px;
+	font-size: 15px;
+}
+.autor1{
+	position: relative;
+	top: 60px;
+	left: 10px;
+	font-size: 10px;
+}
+
+.menu{
+	position: relative;
+	left: 380px;
+	top: 35px;
+	border-style: solid;
+	padding: 10px 20px ;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+}
+
+.menu:hover{
+	background-color: darkblue;
+}
+
+div a{
+	text-decoration: none;
+}
+
+
+main a:hover{
+	color: gray;
+}
+
+aside a:hover{
+	color: gray;
+}
+
+.jogos{
+	position: relative;
+	top: 35px;
+	left: 5px;
+	width: 24.4%;
+	height: 150px;
+}
+
+
+div h2{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#fotjogos{
+	margin-top: 50px;
+}
